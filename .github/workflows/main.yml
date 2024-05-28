@@ -15,6 +15,6 @@ jobs:
         run: |
           git remote add upstream https://github.com/blackmatrix7/ios_rule_script.git
           git fetch upstream
-          git checkout main
-          git merge upstream/main
-          git push origin main
+          git checkout master  # 将分支设置为 master
+          git merge upstream/master
+          git push origin master
